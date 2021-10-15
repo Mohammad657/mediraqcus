@@ -2,13 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-// void _onPressed() {
-//   FirebaseFirestore.instance.collection("IRAQI").get().then((querySnapshot) {
-//     for (var result in querySnapshot.docs) {
-//       print(result.data());
-//     }
-//   });
-// }
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
